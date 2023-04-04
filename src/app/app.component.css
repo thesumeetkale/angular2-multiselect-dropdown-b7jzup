@@ -1,3 +1,17 @@
 p {
   font-family: Lato;
 }
+
+::ng-deep .selected-list {
+  height: 4em;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::ng-deep .selected-list .c-btn{
+    width: 93% !important;
+}
+
+::ng-deep .selected-list .c-list{
+  width: calc(100% - 23px) !important;
+}
